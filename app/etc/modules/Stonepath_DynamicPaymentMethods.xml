@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Stonepath_DynamicPaymentMethods>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </Stonepath_DynamicPaymentMethods>
+  </modules>
+</config>

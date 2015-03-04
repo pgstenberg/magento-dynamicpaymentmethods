@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Stonepath_DynamicPaymentMethods>
+      <version>0.1.0</version>
+    </Stonepath_DynamicPaymentMethods>
+  </modules>
+  <global>
+    <helpers>
+      <dynamicpaymentmethods>
+        <class>Stonepath_DynamicPaymentMethods_Helper</class>
+      </dynamicpaymentmethods>
+    </helpers>
+	<blocks>
+	  <dynamicpaymentmethods>
+		<class>Stonepath_DynamicPaymentMethods_Block</class>
+	  </dynamicpaymentmethods>
+			<checkout>
+				<rewrite>
+					<onepage_payment_methods>Stonepath_DynamicPaymentMethods_Block_Checkout_Onepage_Payment_Methods</onepage_payment_methods>
+				</rewrite>
+			</checkout>
+	</blocks>
+	<models>
+	  <dynamicpaymentmethods>
+		<class>Stonepath_DynamicPaymentMethods_Model</class>
+	  </dynamicpaymentmethods>
+	  </models>
+  </global>
+</config> 
