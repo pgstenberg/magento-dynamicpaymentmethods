@@ -27,8 +27,3 @@ Example configuration
         }
 }
 ```
-
-
-Knows issues
------------------------------------------------------
-- Won't disable the out of stock product after initial select in dropbox (Only affecting the rwd theme in 1.9.x)
