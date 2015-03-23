@@ -18,11 +18,11 @@ Example configuration
 ```json
 {
         "checkmo": {
-            "customer_groups": ["1","2","0"],
+            "customer_groups": [1,2,0],
             "shipping_methods": ["freeshipping_freeshipping"]
         },
 		"ccsave": {
-            "customer_groups": ["1","2","0"],
+            "customer_groups": [1,2,0],
             "shipping_methods": ["freeshipping_freeshipping","flatrate_flatrate"]
         }
 }

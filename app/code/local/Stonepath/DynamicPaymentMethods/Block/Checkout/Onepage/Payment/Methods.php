@@ -37,7 +37,7 @@ class Stonepath_DynamicPaymentMethods_Block_Checkout_Onepage_Payment_Methods ext
 		if(!in_array(Mage::getSingleton('customer/session')->getCustomerGroupId(),$method_constrains[$method->getCode()]['customer_groups']))
 			return false;
 		
-		if(!in_array(explode("_",Mage::app()->getRequest()->getParam('shipping_method'))[0],$method_constrains[$method->getCode()]['shipping_methods']))
+		if(!in_array(Mage::app()->getRequest()->getParam('shipping_method'),$method_constrains[$method->getCode()]['shipping_methods']))
 			return false;
 		
 		
